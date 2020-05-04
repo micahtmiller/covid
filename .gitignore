@@ -1,2 +1,7 @@
+# Python Environment
 env/
+# Jupyter Notebook
 .ipynb_checkpoints/
+
+# JSON secrets
+*.secret
