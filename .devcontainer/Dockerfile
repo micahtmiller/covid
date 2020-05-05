@@ -18,3 +18,7 @@ RUN apt-get install \
 RUN curl -O https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip \
     && unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip -d /usr/local/bin \
     && rm terraform_${TERRAFORM_VERSION}_linux_amd64.zip
+
+# Set up python development environment
+ADD requirements.txt .
+RUN pip install -r requirements.txt

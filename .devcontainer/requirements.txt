@@ -1,0 +1,6 @@
+pytest
+pylint
+pandas
+matplotlib
+jupyter
+datapackage
