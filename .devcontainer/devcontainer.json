@@ -1,0 +1,8 @@
+{
+    "name": "Python-GCloud-Terraform",
+    "dockerFile": "Dockerfile",
+    "extensions": ["mauve.terraform", "ms-python.python"],
+    "containerEnv": {"GOOGLE_APPLICATION_CREDENTIALS": "/workspaces/covid/.devcontainer/sandbox-mtm-terraform.secret"},
+    "forwardPorts": [8888],
+    "postCreateCommand": "gcloud auth activate-service-account --key-file=/workspaces/covid/.devcontainer/sandbox-mtm-terraform.secret && gcloud config set project sandbox-mtm"
+}

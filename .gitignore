@@ -1,2 +1,16 @@
+# VS Code
+.vscode/
+
+# Python Environment
 env/
+__pycache__/
+.pytest_cache/
+
+# Jupyter Notebook
 .ipynb_checkpoints/
+
+# JSON secrets
+*.secret
+
+# Terraform
+.terraform/

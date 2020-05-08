@@ -1,0 +1,7 @@
+pytest
+pylint
+pandas
+matplotlib
+jupyter
+datapackage
+google-cloud-bigquery
