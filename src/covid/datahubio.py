@@ -1,7 +1,7 @@
 import pandas as pd
 from datapackage import Package
 
-class Data:
+class DataHubIO:
     def __init__(self, url, resource):
         self.url = url
         self.resource = resource

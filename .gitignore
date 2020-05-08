@@ -11,3 +11,6 @@ __pycache__/
 
 # JSON secrets
 *.secret
+
+# Terraform
+.terraform/

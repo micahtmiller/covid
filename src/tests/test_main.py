@@ -13,6 +13,12 @@ class TestMain:
         assert False
         assert df['Province/State'][df['Province/State'] == 'Hubei'].all()
 
+    # get population by country
+    # create confirmed/population
+    # create cutoff based on ratio
+    # calculate daily changes
+    # smoooth
+    # save data to bigquery 
 
 
 
